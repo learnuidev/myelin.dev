@@ -37,7 +37,6 @@ export default function Home() {
       <div>
         <div className="flex mt-12 border border-dashed border-muted-foreground p-2 px-4 text-sm w-full relative">
           <button
-            type="button"
             onClick={() => {
               copyTextToClipboard(`npx myelino --translate`).then(() => {
                 // alert("Copied to clipboard");
