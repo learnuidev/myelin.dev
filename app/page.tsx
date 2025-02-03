@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 import { useTranslation } from "@/libs/i18n-next/use-translation";
 
-export async function copyTextToClipboard(text: string) {
+async function copyTextToClipboard(text: string) {
   if (navigator.clipboard) {
     // Use the Clipboard API for modern browsers
     return navigator.clipboard
