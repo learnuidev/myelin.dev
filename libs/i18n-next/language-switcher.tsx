@@ -36,10 +36,8 @@ export function LanguageSwitcher() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon" className="rounded-full">
-          <div className="relative size-7">
-            {LANGUAGES[selectedItem].language}
-          </div>
+        <Button variant="ghost" className="rounded-full">
+          <div className="">{LANGUAGES[selectedItem].language}</div>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-fit">
@@ -50,9 +48,7 @@ export function LanguageSwitcher() {
               className="flex items-center gap-2"
               onClick={() => handleChange(item)}
             >
-              <div className="relative size-5">
-                <p>{LANGUAGES[item].language}</p>
-              </div>
+              <p>{LANGUAGES[item].language}</p>
             </DropdownMenuItem>
           );
         })}
