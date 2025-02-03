@@ -3,8 +3,6 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-// import { getCookie, setCookie } from '@/domain/cookie/cookieUtils'
-import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -13,7 +11,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-// import { i18nConfig, Language, LANGUAGES } from './settings'
 import { useTranslation } from "./use-translation";
 import { getCookie, setCookie } from "./cookie-utils";
 import { i18nConfig, Language, LANGUAGES } from "./i18n-config";
@@ -56,13 +53,6 @@ export function LanguageSwitcher() {
               <div className="relative size-5">
                 <p>{LANGUAGES[item].language}</p>
               </div>
-              <span
-                className={cn("text-xs", {
-                  "font-semibold": item === selectedItem,
-                })}
-              >
-                {LANGUAGES[item].language}
-              </span>
             </DropdownMenuItem>
           );
         })}

@@ -6,22 +6,27 @@ export const LANGUAGES = {
     language: "English (UK)",
     flag: ``,
   },
-  ar: {
-    language: "العربية",
-    flag: ``,
-  },
   "en-US": {
     language: "English (US)",
     flag: ``,
   },
-  de: {
-    language: "Deutsch",
+  zh: {
+    language: "Chinese (Mainland)",
     flag: ``,
   },
-  ja: {
-    language: "日本語",
+  "zh-TW": {
+    language: "Chinese (Taiwan)",
     flag: ``,
   },
+  es: {
+    language: "Spanish",
+    flag: ``,
+  },
+  fr: {
+    language: "French",
+    flag: ``,
+  },
+
   // Add your supported locales here
 } as const;
 
