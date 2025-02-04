@@ -9,5 +9,8 @@
   "feature.openSource.description": "Myelin is fully open source. You can read every single line of code on the GitHub repository.",
   "feature.firstClassi18n": "First Class i18n Library Support",
   "feature.firstClassi18n.description": "next-intl, react-intl, react-i18next, etc. Myelin supports them all.",
-  "feature.title": "Features"
+  "feature.title": "Features",
+
+  "feature.nameSpaceSupport": "Namespace Support",
+  "feature.nameSpaceSupport.description": "Myelin supports both namesapced and non namespaced out of the box"
 }

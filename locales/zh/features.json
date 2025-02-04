@@ -6,8 +6,10 @@
   "feature.private": "本地优先且私有",
   "feature.private.description": "翻译调用在您的机器上进行。我们从不将您的数据发送给第三方 API 或其他任何外部数据库。",
   "feature.openSource": "开源",
-  "feature.openSource.description": "Myelin 完全开源。您可以在 github 存储库中阅读每一行代码。",
+  "feature.openSource.description": "髓鞘是完全开源的。您可以在GitHub仓库中阅读每一行代码。",
   "feature.firstClassi18n": "一流的国际化库支持",
   "feature.firstClassi18n.description": "next-intl、react-intl、react-i18next 等等。Myelin 所有支持。",
-  "feature.title": "功能"
+  "feature.title": "功能",
+  "feature.nameSpaceSupport": "命名空间支持",
+  "feature.nameSpaceSupport.description": "Myelin 开箱即用地支持命名空间和非命名空间."
 }

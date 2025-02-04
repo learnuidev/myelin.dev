@@ -1,0 +1,12 @@
+{
+  "tutorial.title": "Tutorial",
+  "stepOne": "Create myelin.config.json",
+  "stepOne.description": "Ensure that you have a 'myelin.config.json' configuration file located in the root of your project. Below is an example.",
+
+  "stepTwo.title": "Add AI Api Keys",
+  "stepTwo.description": "Next, go ahead and add `AI_API_KEY` in your `.env` file. This is needed to run perform translations",
+
+  "stepThree.title": "Translate",
+  "stepThree.description": "Next, on your terminal run:",
+  "stepThree.explanation": "When you run this command, Myelin loads your source JSON file (e.g., locales/en.json), identifies any new or updated translation strings, produces translations for your specified target languages, and creates or updates the relevant target language JSON files (e.g., locales/sv.json, locales/de.json, locales/fr.json)."
+}

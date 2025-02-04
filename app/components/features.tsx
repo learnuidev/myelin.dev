@@ -46,6 +46,10 @@ export const Features = () => {
           title={t("feature.firstClassi18n")}
           description={t("feature.firstClassi18n.description")}
         />
+        <FeatureItem
+          title={t("feature.nameSpaceSupport")}
+          description={t("feature.nameSpaceSupport.description")}
+        />
       </div>
     </section>
   );

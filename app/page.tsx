@@ -3,6 +3,7 @@
 import { useTranslation } from "@/libs/i18n-next/use-translation";
 import { copyTextToClipboard } from "@/libs/misc/copy-text-to-clipboard";
 import { Features } from "./components/features";
+import { Tutorial } from "./components/tutorial";
 
 export default function Home() {
   const { t } = useTranslation(["common"]);
@@ -34,6 +35,8 @@ export default function Home() {
         </div>
       </div>
       <Features />
+
+      <Tutorial />
     </div>
   );
 }

@@ -26,6 +26,10 @@ export const LANGUAGES = {
     language: "French",
     flag: ``,
   },
+  ko: {
+    language: "Korean",
+    flag: ``,
+  },
 
   // Add your supported locales here
 } as const;

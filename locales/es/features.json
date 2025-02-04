@@ -6,8 +6,10 @@
   "feature.private": "Local Primero y Privado",
   "feature.private.description": "Las llamadas de traducción ocurren en tu máquina. Nunca enviamos tus datos a una API de terceros ni a ninguna otra base de datos externa.",
   "feature.openSource": "Código Abierto",
-  "feature.openSource.description": "Myelin es completamente de código abierto. Puedes leer cada línea de código en el repositorio de github.",
+  "feature.openSource.description": "Myelin es completamente de código abierto. Puedes leer cada línea de código en el repositorio de GitHub.",
   "feature.firstClassi18n": "Soporte de Biblioteca i18n de Primera Clase",
   "feature.firstClassi18n.description": "next-intl, react-intl, react-i18next, etc. Myelin los soporta a todos.",
-  "feature.title": "Características"
+  "feature.title": "Características",
+  "feature.nameSpaceSupport": "Soporte de nombres de espacios",
+  "feature.nameSpaceSupport.description": "Myelin admite tanto nombres de espacios como no nombres de espacios desde el primer momento."
 }

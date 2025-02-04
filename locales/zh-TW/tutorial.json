@@ -1,0 +1,10 @@
+{
+  "stepOne": "創建 myelin.config.json",
+  "stepOne.description": "請確保您在項目的根目錄中有一個 'myelin.config.json' 配置文件。以下是一個範例。",
+  "tutorial.title": "教學",
+  "stepTwo.title": "添加 AI API 金鑰",
+  "stepTwo.description": "接下來，請在您的 `.env` 文件中添加 `AI_API_KEY`。這是執行翻譯所需的。",
+  "stepThree.title": "翻譯",
+  "stepThree.description": "接下來，在您的終端中運行：",
+  "stepThree.explanation": "當您運行此命令時，Myelin 會加載您的源 JSON 文件（例如，locales/en.json），識別任何新的或更新的翻譯字符串，為您指定的目標語言生成翻譯，並創建或更新相關的目標語言 JSON 文件（例如，locales/sv.json，locales/de.json，locales/fr.json）。"
+}
