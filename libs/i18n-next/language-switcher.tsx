@@ -13,7 +13,7 @@ import {
 
 import { useTranslation } from "./use-translation";
 import { getCookie, setCookie } from "./cookie-utils";
-import { i18nConfig, Language, LANGUAGES } from "./i18n-config";
+import { i18nConfig, Language, languagesList } from "./i18n-config";
 
 export function LanguageSwitcher() {
   const locale = getCookie(i18nConfig.cookieName) as Language;
@@ -37,7 +37,7 @@ export function LanguageSwitcher() {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" className="rounded-full">
-          <div className="">{LANGUAGES[selectedItem].language}</div>
+          <div className="">{languagesList[selectedItem].language}</div>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-fit">
@@ -48,7 +48,7 @@ export function LanguageSwitcher() {
               className="flex items-center gap-2"
               onClick={() => handleChange(item)}
             >
-              <p>{LANGUAGES[item].language}</p>
+              <p>{languagesList[item].language}</p>
             </DropdownMenuItem>
           );
         })}

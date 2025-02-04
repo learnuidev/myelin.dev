@@ -1,46 +1,39 @@
 import { FormatFunction } from "i18next";
 import resourcesToBackend from "i18next-resources-to-backend";
 
-export const LANGUAGES = {
+export const languagesList = {
   en: {
     language: "English (UK)",
-    flag: ``,
   },
   "en-US": {
     language: "English (US)",
-    flag: ``,
   },
   zh: {
     language: "Chinese (Mainland)",
-    flag: ``,
   },
   "zh-TW": {
     language: "Chinese (Taiwan)",
-    flag: ``,
   },
   es: {
     language: "Spanish",
-    flag: ``,
   },
   fr: {
     language: "French",
-    flag: ``,
   },
   ko: {
     language: "Korean",
-    flag: ``,
   },
 
   // Add your supported locales here
 } as const;
 
-export type Language = keyof typeof LANGUAGES;
+export type Language = keyof typeof languagesList;
 
 export const i18nConfig = {
   cookieName: "I18N_COOKIE",
   fallbackLanguage: "en",
   defaultNamespace: "common",
-  languages: Object.keys(LANGUAGES) as Language[],
+  languages: Object.keys(languagesList) as Language[],
 };
 
 const customFormat: FormatFunction = (value, format) => {

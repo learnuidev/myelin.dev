@@ -69,7 +69,7 @@ export const Tutorial = () => {
           <div className="text-sm my-12 dark:bg-[rgb(21,22,23)] bg-gray-100 py-2 px-2">
             <code>
               <pre>
-                <span className="text-gray-300">{`> npx myelino --translate`}</span>
+                <span className="text-gray-800 dark:text-gray-300">{`> npx myelino --translate`}</span>
               </pre>
             </code>
           </div>
