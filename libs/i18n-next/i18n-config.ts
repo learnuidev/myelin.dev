@@ -23,6 +23,24 @@ export const languagesList = {
   ko: {
     language: "Korean",
   },
+  ro: {
+    language: "Romanian",
+  },
+  ur: {
+    language: "Urdu",
+  },
+  hi: {
+    language: "Hindi",
+  },
+  fa: {
+    language: "Farsi",
+  },
+  ar: {
+    language: "Arabic",
+  },
+  ru: {
+    language: "Russian",
+  },
 
   // Add your supported locales here
 } as const;
