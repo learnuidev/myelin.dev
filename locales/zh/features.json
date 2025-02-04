@@ -1,0 +1,12 @@
+{
+  "feature.multiModel": "多模型",
+  "feature.multiModel.description": "髓鞘是灵活的。您可以选择四种不同的基础设施：openai、deepseek、moonshot 和 qwen。",
+  "feature.byom": "自带模型",
+  "feature.byom.description": "使用 Myelin，您可以自带模型。",
+  "feature.private": "本地优先且私有",
+  "feature.private.description": "翻译调用在您的机器上进行。我们从不将您的数据发送给第三方 API 或其他任何外部数据库。",
+  "feature.openSource": "开源",
+  "feature.openSource.description": "Myelin 完全开源。您可以在 github 存储库中阅读每一行代码。",
+  "feature.firstClassi18n": "一流的国际化库支持",
+  "feature.firstClassi18n.description": "next-intl、react-intl、react-i18next 等等。Myelin 所有支持。"
+}

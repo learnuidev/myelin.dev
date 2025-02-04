@@ -1,0 +1,12 @@
+{
+  "feature.multiModel": "多模型",
+  "feature.multiModel.description": "Myelin 是靈活的。您可以選擇四種不同的基礎架構：openai、deepseek、moonshot 和 qwen。",
+  "feature.byom": "自帶模型",
+  "feature.byom.description": "使用 Myelin，您可以攜帶自己的模型。",
+  "feature.private": "本地優先且私密",
+  "feature.private.description": "翻譯調用在您的機器上進行。我們從不將您的數據發送到第三方 API 或任何其他外部數據庫。",
+  "feature.openSource": "開放源碼",
+  "feature.openSource.description": "Myelin 完全開放源碼。您可以在 GitHub 存儲庫上查看每一行代碼。",
+  "feature.firstClassi18n": "一流的國際化庫支持",
+  "feature.firstClassi18n.description": "next-intl、react-intl、react-i18next 等等。Myelin 全部支持。"
+}

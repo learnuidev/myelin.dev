@@ -1,0 +1,12 @@
+{
+  "feature.multiModel": "Modelo Múltiple",
+  "feature.multiModel.description": "Myelin es flexible. Puedes elegir entre cuatro infraestructuras diferentes: openai, deepseek, moonshot y qwen.",
+  "feature.byom": "Trae Tu Propio Modelo",
+  "feature.byom.description": "Con Myelin, puedes traer tu propio modelo.",
+  "feature.private": "Local Primero y Privado",
+  "feature.private.description": "Las llamadas de traducción ocurren en tu máquina. Nunca enviamos tus datos a una API de terceros ni a ninguna otra base de datos externa.",
+  "feature.openSource": "Código Abierto",
+  "feature.openSource.description": "Myelin es completamente de código abierto. Puedes leer cada línea de código en el repositorio de github.",
+  "feature.firstClassi18n": "Soporte de Biblioteca i18n de Primera Clase",
+  "feature.firstClassi18n.description": "next-intl, react-intl, react-i18next, etc. Myelin los soporta a todos."
+}
