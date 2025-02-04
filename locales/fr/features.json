@@ -11,7 +11,7 @@
   "feature.firstClassi18n.description": "next-intl, react-intl, react-i18next, etc. Myelin les prend tous en charge.",
   "feature.title": "Fonctionnalités",
   "feature.nameSpaceSupport": "Support des espaces de noms",
-  "feature.nameSpaceSupport.description": "Myelin prend en charge à la fois les espaces de noms et les éléments non espacés par défaut.",
   "feature.free": "Gratuit",
-  "feature.free.description": "La myéline est gratuite. Pour toujours et à jamais."
+  "feature.free.description": "La myéline est gratuite. Pour toujours et à jamais.",
+  "feature.nameSpaceSupport.description": "Myéline prend en charge à la fois les fichiers de traduction avec et sans espace de noms immédiatement."
 }

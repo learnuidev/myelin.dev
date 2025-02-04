@@ -11,7 +11,7 @@
   "feature.firstClassi18n.description": "next-intl、react-intl、react-i18next 等等。Myelin 全部支持。",
   "feature.title": "特色",
   "feature.nameSpaceSupport": "命名空間支援",
-  "feature.nameSpaceSupport.description": "Myelin 支援開箱即用的命名空間和非命名空間。",
   "feature.free": "免費",
-  "feature.free.description": "髓鞘是免費的。現在和永遠。"
+  "feature.free.description": "髓鞘是免費的。現在和永遠。",
+  "feature.nameSpaceSupport.description": "髓鞘支持命名空間和非命名空間的翻譯文件，開箱即用。"
 }

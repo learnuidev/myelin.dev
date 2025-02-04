@@ -14,5 +14,5 @@
   "feature.title": "Features",
 
   "feature.nameSpaceSupport": "Namespace Support",
-  "feature.nameSpaceSupport.description": "Myelin supports both namesapced and non namespaced out of the box"
+  "feature.nameSpaceSupport.description": "Myelin supports both namespaced and non namespaced translation files out of the box"
 }

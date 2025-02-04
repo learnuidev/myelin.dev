@@ -11,7 +11,7 @@
   "feature.firstClassi18n.description": "next-intl و react-intl و react-i18next وغيرها. الميلين يدعمهم جميعًا.",
   "feature.title": "الميزات",
   "feature.nameSpaceSupport": "دعم مساحة الأسماء",
-  "feature.nameSpaceSupport.description": "الميلين يدعم كل من المساحة المسماة وغير المسماة بشكل افتراضي.",
   "feature.free": "مجاني",
-  "feature.free.description": "الميلاتين مجاني. الآن وإلى الأبد."
+  "feature.free.description": "الميلاتين مجاني. الآن وإلى الأبد.",
+  "feature.nameSpaceSupport.description": "يدعم المايلين ملفات الترجمة ذات المساحة الاسمية وغير المساحة الاسمية خارج الصندوق."
 }

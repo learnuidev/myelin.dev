@@ -11,7 +11,7 @@
   "feature.firstClassi18n.description": "next-intl، react-intl، react-i18next و غیره. مایلین از تمامی آن‌ها پشتیبانی می‌کند.",
   "feature.title": "ویژگی‌ها",
   "feature.nameSpaceSupport": "پشتیبانی از فضای نام",
-  "feature.nameSpaceSupport.description": "مایلین به‌طور پیش‌فرض از فضای نام و غیر فضای نام پشتیبانی می‌کند.",
   "feature.free": "رایگان",
-  "feature.free.description": "میلن رایگان است. اکنون و همیشه."
+  "feature.free.description": "میلن رایگان است. اکنون و همیشه.",
+  "feature.nameSpaceSupport.description": "میلین از فایل‌های ترجمه با و بدون فضای نام به‌طور پیش‌فرض پشتیبانی می‌کند."
 }

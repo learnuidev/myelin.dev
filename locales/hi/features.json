@@ -11,7 +11,7 @@
   "feature.firstClassi18n.description": "next-intl, react-intl, react-i18next आदि। मायेलिन सभी का समर्थन करता है।",
   "feature.title": "विशेषताएँ",
   "feature.nameSpaceSupport": "नेमस्पेस समर्थन",
-  "feature.nameSpaceSupport.description": "मायेलिन बोक्स से बाहर दोनों नामित और गैर-नामित का समर्थन करता है।",
   "feature.free": "मुफ्त",
-  "feature.free.description": "मायलिन मुफ्त है। अब और हमेशा।"
+  "feature.free.description": "मायलिन मुफ्त है। अब और हमेशा।",
+  "feature.nameSpaceSupport.description": "माइलीन बॉक्स से बाहर नामित और गैर-नामित अनुवाद फ़ाइलों दोनों का समर्थन करता है।"
 }

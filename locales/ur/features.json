@@ -11,7 +11,7 @@
   "feature.firstClassi18n.description": "next-intl، react-intl، react-i18next وغیرہ۔ میائلن ان سب کی حمایت کرتا ہے۔",
   "feature.title": "خصوصیات",
   "feature.nameSpaceSupport": "نام کی جگہ کی حمایت",
-  "feature.nameSpaceSupport.description": "میائلن باکس سے باہر دونوں نامزد اور غیر نامزد کی حمایت کرتا ہے۔",
   "feature.free": "مفت",
-  "feature.free.description": "میلن مفت ہے۔ اب اور ہمیشہ کے لئے۔"
+  "feature.free.description": "میلن مفت ہے۔ اب اور ہمیشہ کے لئے۔",
+  "feature.nameSpaceSupport.description": "میئلین باکس سے باہر دونوں نام کی جگہ رکھنے والے اور غیر نام کی جگہ رکھنے والے ترجمے کی فائلوں کی حمایت کرتا ہے۔"
 }

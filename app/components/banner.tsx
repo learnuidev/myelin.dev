@@ -92,7 +92,10 @@ export function Banner() {
             }}
             className="flex items-center space-x-2"
           >
-            <span> npx myelino --translate</span>
+            <span>
+              {" "}
+              npx <span className="text-pink-500">myelino</span> --translate
+            </span>
           </button>
         </div>
       </motion.div>
