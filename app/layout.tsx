@@ -1,15 +1,13 @@
+import { Footer } from "@/components/footer";
 import { NavBar } from "@/components/navbar/navbar";
 import { ThemeProvider } from "@/components/theme-provider/theme-provider";
-import { i18nConfig } from "@/libs/i18n-next/i18n-config";
 import { I18NextProvider } from "@/libs/i18n-next/i18n-next-provider";
-import { dir } from "i18next";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { cookies } from "next/headers";
 import "./globals.css";
-import { Footer } from "@/components/footer";
 
 import { Toaster } from "@/components/ui/toaster";
+import { getLocaleAndDirection } from "@/libs/i18n-next/get-locale-and-direction";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,8 +29,7 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const locale = (await cookies()).get(i18nConfig.cookieName)?.value;
-  const direction = dir(locale);
+  const { locale, direction } = await getLocaleAndDirection();
 
   return (
     <I18NextProvider>
