@@ -11,5 +11,7 @@
   "feature.firstClassi18n.description": "next-intl, react-intl, react-i18next, etc. Myelin supports them all.",
   "feature.title": "Features",
   "feature.nameSpaceSupport": "Namespace Support",
-  "feature.nameSpaceSupport.description": "Myelin supports both namespaced and non-namespaced out of the box."
+  "feature.nameSpaceSupport.description": "Myelin supports both namespaced and non-namespaced out of the box.",
+  "feature.free": "Free",
+  "feature.free.description": "Myelin is free. Now and forever."
 }

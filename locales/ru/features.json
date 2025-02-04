@@ -11,5 +11,7 @@
   "feature.firstClassi18n.description": "next-intl, react-intl, react-i18next и т.д. Миелин поддерживает все это.",
   "feature.title": "Особенности",
   "feature.nameSpaceSupport": "Поддержка пространств имен",
-  "feature.nameSpaceSupport.description": "Миелин поддерживает как пространственные, так и не пространственные имена из коробки"
+  "feature.nameSpaceSupport.description": "Миелин поддерживает как пространственные, так и не пространственные имена из коробки",
+  "feature.free": "Бесплатно",
+  "feature.free.description": "Миелин бесплатен. Сейчас и навсегда."
 }

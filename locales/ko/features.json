@@ -11,5 +11,7 @@
   "feature.firstClassi18n.description": "next-intl, react-intl, react-i18next 등. 마이엘린은 이 모두를 지원합니다.",
   "feature.title": "기능",
   "feature.nameSpaceSupport": "네임스페이스 지원",
-  "feature.nameSpaceSupport.description": "마이엘린은 기본적으로 네임스페이스가 있는 경우와 없는 경우 모두를 지원합니다."
+  "feature.nameSpaceSupport.description": "마이엘린은 기본적으로 네임스페이스가 있는 경우와 없는 경우 모두를 지원합니다.",
+  "feature.free": "무료",
+  "feature.free.description": "미엘린은 무료입니다. 지금 그리고 영원히."
 }

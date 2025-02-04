@@ -11,5 +11,7 @@
   "feature.firstClassi18n.description": "next-intl, react-intl, react-i18next, etc. Myelin los soporta a todos.",
   "feature.title": "Características",
   "feature.nameSpaceSupport": "Soporte de nombres de espacios",
-  "feature.nameSpaceSupport.description": "Myelin admite tanto nombres de espacios como no nombres de espacios desde el primer momento."
+  "feature.nameSpaceSupport.description": "Myelin admite tanto nombres de espacios como no nombres de espacios desde el primer momento.",
+  "feature.free": "Gratis",
+  "feature.free.description": "La mielina es gratuita. Ahora y siempre."
 }

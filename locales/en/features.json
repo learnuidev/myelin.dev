@@ -1,4 +1,6 @@
 {
+  "feature.free": "Free",
+  "feature.free.description": "Myelin is free. Now and forever.",
   "feature.multiModel": "Multi Model",
   "feature.multiModel.description": "Myelin is flexible. You can choose from four different infrastructures: openai, deepseek, moonshot, and qwen.",
   "feature.byom": "Bring Your Own Model",

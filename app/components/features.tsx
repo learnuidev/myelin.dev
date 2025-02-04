@@ -11,7 +11,7 @@ function FeatureItem({
     <div>
       <h4 className="font-bold uppercase font-mono">{title}</h4>
 
-      <p className="font-extralight mt-2 dark:text-gray-400">{description}</p>
+      <p className="mt-2 dark:text-gray-400">{description}</p>
     </div>
   );
 }
@@ -33,6 +33,10 @@ export const Features = () => {
         <FeatureItem
           title={t("feature.openSource")}
           description={t("feature.openSource.description")}
+        />
+        <FeatureItem
+          title={t("feature.free")}
+          description={t("feature.free.description")}
         />
         <FeatureItem
           title={t("feature.multiModel")}

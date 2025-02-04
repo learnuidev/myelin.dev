@@ -11,5 +11,7 @@
   "feature.firstClassi18n.description": "next-intl, react-intl, react-i18next etc. Myelin le suportă pe toate.",
   "feature.title": "Funcționalități",
   "feature.nameSpaceSupport": "Suport pentru spații de nume",
-  "feature.nameSpaceSupport.description": "Myelin suportă atât spații de nume, cât și ne-spațiate din cutie."
+  "feature.nameSpaceSupport.description": "Myelin suportă atât spații de nume, cât și ne-spațiate din cutie.",
+  "feature.free": "Gratuit",
+  "feature.free.description": "Mielina este gratuită. Acum și pentru totdeauna."
 }
