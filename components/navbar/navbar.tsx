@@ -27,7 +27,7 @@ function GithubLink({ href }: { href: string }) {
 export const NavBar = () => {
   const { t } = useTranslation(["common"]);
   return (
-    <nav className="p-8 flex justify-between items-center">
+    <nav className="px-8 py-4 flex justify-between items-center z-50 dark:bg-[rgb(11,12,13)] bg-gray-50">
       <Link className="font-bold text-2xl lowercase" href="/">
         {t("title")}
       </Link>

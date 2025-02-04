@@ -43,8 +43,12 @@ export default async function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <NavBar />
-            {children}
+            <div className="relative">
+              <div className="fixed top-0 w-full">
+                <NavBar />
+              </div>
+              {children}
+            </div>
           </ThemeProvider>
         </body>
       </html>

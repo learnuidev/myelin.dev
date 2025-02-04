@@ -18,18 +18,16 @@ export default function Home() {
           {t("banner")}
         </h3>
         <div>
-          <div className="flex mt-8 border border-dashed border-gray-200 dark:border-gray-600 p-2 px-4 text-sm w-full relative">
+          <div className="flex mt-8 border border-dashed border-gray-200 dark:border-gray-600 p-2 px-4 text-sm w-full">
             <button
               onClick={() => {
                 copyTextToClipboard(`npx myelino --translate`).then(() => {
                   alert("Copied to clipboard");
                 });
               }}
-              className="flex items-center space-x-2 overflow-hidden"
+              className="flex items-center space-x-2"
             >
-              <span className="text-primary truncate">
-                npx myelino --translate
-              </span>
+              <span> npx myelino --translate</span>
             </button>
           </div>
         </div>
