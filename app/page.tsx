@@ -9,7 +9,6 @@ export default function Home() {
     <div className="max-w-4xl mx-auto p-8">
       <Banner />
       <Features />
-
       <Tutorial />
     </div>
   );

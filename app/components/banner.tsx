@@ -15,7 +15,7 @@ export function Banner() {
         {t("banner")}
       </h3>
       <div>
-        <div className="flex mt-8 border border-dashed border-gray-200 dark:border-gray-600 p-2 px-4 text-sm w-full">
+        <div className="flex mt-8 border border-gray-200 dark:border-gray-600 rounded-full hover:shadow-lg dark:hover:shadow-gray-800 hover:shadow-gray-200 transition p-2 px-4 text-sm w-full font-mono">
           <button
             onClick={() => {
               copyTextToClipboard(`npx myelino --translate`).then(() => {
