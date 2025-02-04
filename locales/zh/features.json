@@ -8,5 +8,6 @@
   "feature.openSource": "开源",
   "feature.openSource.description": "Myelin 完全开源。您可以在 github 存储库中阅读每一行代码。",
   "feature.firstClassi18n": "一流的国际化库支持",
-  "feature.firstClassi18n.description": "next-intl、react-intl、react-i18next 等等。Myelin 所有支持。"
+  "feature.firstClassi18n.description": "next-intl、react-intl、react-i18next 等等。Myelin 所有支持。",
+  "feature.title": "功能"
 }

@@ -8,5 +8,6 @@
   "feature.openSource": "Código Abierto",
   "feature.openSource.description": "Myelin es completamente de código abierto. Puedes leer cada línea de código en el repositorio de github.",
   "feature.firstClassi18n": "Soporte de Biblioteca i18n de Primera Clase",
-  "feature.firstClassi18n.description": "next-intl, react-intl, react-i18next, etc. Myelin los soporta a todos."
+  "feature.firstClassi18n.description": "next-intl, react-intl, react-i18next, etc. Myelin los soporta a todos.",
+  "feature.title": "Características"
 }

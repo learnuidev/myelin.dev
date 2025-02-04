@@ -1,4 +1,5 @@
 {
+  "feature.title": "Features",
   "feature.multiModel": "Multi Model",
   "feature.multiModel.description": "Myelin is flexible. You can choose from four different infrastructures: openai, deepseek, moonshot and qwen.",
 
