@@ -61,8 +61,10 @@ export const Tutorial = () => {
             <p className="font-mono text-gray-500 mb-2">{`.env`}</p>
             <code>
               <pre>
-                <span className="text-gray-400">{`AI_API_KEY=`}</span>
-                <span className="text-pink-400">sk-proj-your-api-key</span>
+                <span className="dark:text-gray-400 text-gray-600">{`AI_API_KEY=`}</span>
+                <span className="dark:text-pink-400 text-pink-500">
+                  sk-proj-your-api-key
+                </span>
               </pre>
             </code>
           </div>

@@ -1,4 +1,5 @@
 import { useTranslation } from "@/libs/i18n-next/use-translation";
+import { motion } from "framer-motion";
 
 function FeatureItem({
   title,
@@ -7,20 +8,49 @@ function FeatureItem({
   title: string;
   description: string;
 }) {
+  const featureVariants = {
+    hidden: { opacity: 0, x: 10 },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: {
+        duration: 0.5,
+      },
+    },
+  };
+
   return (
-    <div className="dark:bg-[rgb(14,15,16)] bg-gray-100 p-4 rounded-2xl">
+    <motion.div
+      variants={featureVariants}
+      className="dark:bg-[rgb(14,15,16)] bg-gray-100 p-4 rounded-2xl"
+    >
       <h4 className="font-bold uppercase font-mono">{title}</h4>
 
       <p className="mt-2 dark:text-gray-500">{description}</p>
-    </div>
+    </motion.div>
   );
 }
 
 export const Features = () => {
   const { t } = useTranslation(["features"]);
 
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.3,
+      },
+    },
+  };
+
   return (
-    <section className="my-32 dark:bg-[rgb(11,12,13)] bg-gray-50 p-4">
+    <motion.section
+      initial="hidden"
+      animate="visible"
+      variants={containerVariants}
+      className="my-32 dark:bg-[rgb(11,12,13)] bg-gray-50 p-4"
+    >
       <h2 className="text-2xl mb-8 text-center font-mono uppercase font-bold">
         {t("feature.title")}
       </h2>
@@ -55,6 +85,6 @@ export const Features = () => {
           description={t("feature.nameSpaceSupport.description")}
         />
       </div>
-    </section>
+    </motion.section>
   );
 };
