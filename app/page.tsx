@@ -8,15 +8,14 @@ export default function Home() {
 
   return (
     <div className="flex items-center justify-center flex-col max-w-4xl m-auto">
-      <h1 className="text-center text-5xl mt-32 font-bold font-geist-sans">
-        {t("title", "Not found")}
-      </h1>{" "}
-      <p className="text-center text-2xl dark:text-gray-400">
+      <p className="text-center text-5xl mt-32 dark:text-gray-200">
         {t("description")}
       </p>
-      <h3 className="rounded-none mt-12 text-xl">{t("startAutomating")}</h3>
+      <h3 className="rounded-none mt-6 dark:text-gray-400 text-center font-mono">
+        {t("banner")}
+      </h3>
       <div>
-        <div className="flex mt-4 border border-dashed border-muted-foreground p-2 px-4 text-sm w-full relative">
+        <div className="flex mt-8 border border-dashed border-muted-foreground p-2 px-4 text-sm w-full relative">
           <button
             onClick={() => {
               copyTextToClipboard(`npx myelino --translate`).then(() => {
