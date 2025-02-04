@@ -73,7 +73,7 @@ export function Banner() {
       </motion.h3>
       <motion.p
         variants={descriptionVariants}
-        className="rounded-none mt-6 dark:text-gray-400 max-w-3xl text-center font-mono"
+        className="rounded-none text-lg mt-6 text-gray-500 max-w-3xl text-center font-mono"
       >
         {t("banner")}
       </motion.p>
