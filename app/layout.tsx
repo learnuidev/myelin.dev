@@ -7,7 +7,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import { Toaster } from "@/components/ui/toaster";
-import { getLocaleAndDirection } from "@/libs/i18n-next/get-locale-and-direction";
+import { getLangAndDirection } from "@/libs/i18n-next/get-lang-and-direction";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,11 +29,11 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const { locale, direction } = await getLocaleAndDirection();
+  const { lang, direction } = await getLangAndDirection();
 
   return (
     <I18NextProvider>
-      <html suppressHydrationWarning lang={locale} dir={direction}>
+      <html suppressHydrationWarning lang={lang} dir={direction}>
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
