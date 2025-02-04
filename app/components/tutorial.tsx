@@ -15,7 +15,7 @@ export const Tutorial = () => {
 
   return (
     <section className="my-32 dark:bg-[rgb(11,12,13)] bg-gray-50 p-4">
-      <h2 className="text-2xl mb-8 text-center font-mono uppercase font-bold">
+      <h2 className="text-2xl mb-8 text-center font-mono lowercase font-bold">
         {t("tutorial.title")}
       </h2>
 
