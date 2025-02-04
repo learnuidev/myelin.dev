@@ -2,5 +2,7 @@
   "title": "Myelin",
   "banner": "Myelin seamlessly integrates localization into your development process, freeing you to prioritize building exceptional user experiences while minimizing time spent on translation tasks.",
   "description": "a translation infra that sparks joy",
-  "footer": "© 2025 Zafron Labs, Inc. All rights reserved."
+  "footer": "© 2025 Zafron Labs, Inc. All rights reserved.",
+  "copyToClipboard.title": "Tada 🎉",
+  "copyToClipboard.description": "Copied to clipboard."
 }

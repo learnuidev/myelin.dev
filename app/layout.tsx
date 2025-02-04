@@ -9,6 +9,8 @@ import { cookies } from "next/headers";
 import "./globals.css";
 import { Footer } from "@/components/footer";
 
+import { Toaster } from "@/components/ui/toaster";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -44,6 +46,7 @@ export default async function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
+            <Toaster />
             <div className="relative">
               <div className="fixed top-0 w-full">
                 <NavBar />

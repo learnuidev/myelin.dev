@@ -8,10 +8,10 @@ function FeatureItem({
   description: string;
 }) {
   return (
-    <div>
+    <div className="dark:bg-[rgb(14,15,16)] bg-gray-100 p-4 rounded-2xl">
       <h4 className="font-bold uppercase font-mono">{title}</h4>
 
-      <p className="mt-2 dark:text-gray-400">{description}</p>
+      <p className="mt-2 dark:text-gray-500">{description}</p>
     </div>
   );
 }
@@ -20,7 +20,7 @@ export const Features = () => {
   const { t } = useTranslation(["features"]);
 
   return (
-    <section className="my-32">
+    <section className="my-32 dark:bg-[rgb(11,12,13)] bg-gray-50 p-4">
       <h2 className="text-2xl mb-8 text-center font-mono uppercase font-bold">
         {t("feature.title")}
       </h2>

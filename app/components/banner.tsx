@@ -1,10 +1,12 @@
 "use client";
 
+import { useToast } from "@/hooks/use-toast";
 import { useTranslation } from "@/libs/i18n-next/use-translation";
 import { copyTextToClipboard } from "@/libs/misc/copy-text-to-clipboard";
 
 export function Banner() {
   const { t } = useTranslation(["common"]);
+  const { toast } = useToast();
 
   return (
     <div className="flex items-center justify-center flex-col m-auto">
@@ -17,9 +19,14 @@ export function Banner() {
       <div>
         <div className="flex mt-8 border border-gray-200 dark:border-gray-600 rounded-full hover:shadow-lg dark:hover:shadow-gray-800 hover:shadow-gray-200 transition p-2 px-4 text-sm w-full font-mono">
           <button
-            onClick={() => {
+            onClick={(event) => {
+              event.preventDefault();
+
               copyTextToClipboard(`npx myelino --translate`).then(() => {
-                alert("Copied to clipboard");
+                toast({
+                  title: t("copyToClipboard.title"),
+                  description: t("copyToClipboard.description"),
+                });
               });
             }}
             className="flex items-center space-x-2"

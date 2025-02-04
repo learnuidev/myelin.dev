@@ -14,7 +14,7 @@ export const Tutorial = () => {
   const { t } = useTranslation(["tutorial"]);
 
   return (
-    <section className="my-32">
+    <section className="my-32 dark:bg-[rgb(11,12,13)] bg-gray-50 p-4">
       <h2 className="text-2xl mb-8 text-center font-mono uppercase font-bold">
         {t("tutorial.title")}
       </h2>
@@ -26,7 +26,7 @@ export const Tutorial = () => {
           <TutorialDescription description={t("stepOne.description")} />
 
           <div
-            className="text-sm my-12 dark:bg-[rgb(21,22,23)] bg-gray-100 py-2 px-2"
+            className="text-sm my-12 dark:bg-[rgb(14,15,16)] bg-gray-100 p-4 rounded-2xl"
             dir="ltr"
           >
             <p className="font-mono text-gray-500 mb-2">{`myelin.config.json`}</p>
@@ -55,7 +55,7 @@ export const Tutorial = () => {
           <TutorialDescription description={t("stepTwo.description")} />
 
           <div
-            className="text-sm my-12 dark:bg-[rgb(21,22,23)] bg-gray-100 py-2 px-2"
+            className="text-sm my-12 dark:bg-[rgb(14,15,16)] bg-gray-100 p-4 rounded-2xl"
             dir="ltr"
           >
             <p className="font-mono text-gray-500 mb-2">{`.env`}</p>
@@ -73,7 +73,7 @@ export const Tutorial = () => {
           <TutorialDescription description={t("stepThree.description")} />
 
           <div
-            className="text-sm my-12 dark:bg-[rgb(21,22,23)] bg-gray-100 py-2 px-2"
+            className="text-sm my-12 dark:bg-[rgb(14,15,16)] bg-gray-100 p-4 rounded-2xl"
             dir="ltr"
           >
             <code>
