@@ -48,7 +48,7 @@ export default async function RootLayout({
           >
             <Toaster />
             <div className="relative">
-              <div className="fixed top-0 w-full">
+              <div className="fixed top-0  w-full z-50">
                 <NavBar />
               </div>
               {children}
