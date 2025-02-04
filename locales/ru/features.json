@@ -1,0 +1,15 @@
+{
+  "feature.multiModel": "Мультимодель",
+  "feature.multiModel.description": "Миелин гибкий. Вы можете выбрать из четырех различных инфраструктур: openai, deepseek, moonshot и qwen.",
+  "feature.byom": "Приносите свою модель",
+  "feature.byom.description": "С помощью Миелина вы можете использовать свою собственную модель.",
+  "feature.private": "Локально и конфиденциально",
+  "feature.private.description": "Вызовы перевода происходят на вашем устройстве. Мы никогда не отправляем ваши данные сторонним API или другим внешним базам данных.",
+  "feature.openSource": "Открытый исходный код",
+  "feature.openSource.description": "Миелин полностью с открытым исходным кодом. Вы можете прочитать каждую строку кода в репозитории GitHub.",
+  "feature.firstClassi18n": "Поддержка библиотеки i18n первого класса",
+  "feature.firstClassi18n.description": "next-intl, react-intl, react-i18next и т.д. Миелин поддерживает все это.",
+  "feature.title": "Особенности",
+  "feature.nameSpaceSupport": "Поддержка пространств имен",
+  "feature.nameSpaceSupport.description": "Миелин поддерживает как пространственные, так и не пространственные имена из коробки"
+}

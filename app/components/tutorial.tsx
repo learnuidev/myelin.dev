@@ -25,7 +25,10 @@ export const Tutorial = () => {
 
           <TutorialDescription description={t("stepOne.description")} />
 
-          <div className="text-sm my-12 dark:bg-[rgb(21,22,23)] bg-gray-100 py-2 px-2">
+          <div
+            className="text-sm my-12 dark:bg-[rgb(21,22,23)] bg-gray-100 py-2 px-2"
+            dir="ltr"
+          >
             <p className="font-mono text-gray-500 mb-2">{`myelin.config.json`}</p>
             <code>
               <pre>
@@ -51,7 +54,10 @@ export const Tutorial = () => {
 
           <TutorialDescription description={t("stepTwo.description")} />
 
-          <div className="text-sm my-12 dark:bg-[rgb(21,22,23)] bg-gray-100 py-2 px-2">
+          <div
+            className="text-sm my-12 dark:bg-[rgb(21,22,23)] bg-gray-100 py-2 px-2"
+            dir="ltr"
+          >
             <p className="font-mono text-gray-500 mb-2">{`.env`}</p>
             <code>
               <pre>
@@ -66,7 +72,10 @@ export const Tutorial = () => {
 
           <TutorialDescription description={t("stepThree.description")} />
 
-          <div className="text-sm my-12 dark:bg-[rgb(21,22,23)] bg-gray-100 py-2 px-2">
+          <div
+            className="text-sm my-12 dark:bg-[rgb(21,22,23)] bg-gray-100 py-2 px-2"
+            dir="ltr"
+          >
             <code>
               <pre>
                 <span className="text-gray-800 dark:text-gray-300">{`> npx myelino --translate`}</span>

@@ -1,0 +1,10 @@
+{
+  "tutorial.title": "Учебник",
+  "stepOne": "Создайте myelin.config.json",
+  "stepOne.description": "Убедитесь, что у вас есть файл конфигурации 'myelin.config.json', расположенный в корне вашего проекта. Вот пример.",
+  "stepTwo.title": "Добавьте ключи API ИИ",
+  "stepTwo.description": "Затем добавьте `AI_API_KEY` в ваш файл `.env`. Это необходимо для выполнения переводов.",
+  "stepThree.title": "Перевести",
+  "stepThree.description": "Затем в вашем терминале выполните:",
+  "stepThree.explanation": "Когда вы выполните эту команду, Myelin загрузит ваш исходный файл JSON (например, locales/en.json), определит любые новые или обновленные строки перевода, создаст переводы для ваших указанных целевых языков и создаст или обновит соответствующие файлы JSON целевого языка (например, locales/sv.json, locales/de.json, locales/fr.json)."
+}

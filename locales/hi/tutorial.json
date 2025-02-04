@@ -1,0 +1,10 @@
+{
+  "tutorial.title": "ट्यूटोरियल",
+  "stepOne": "myelin.config.json बनाएं",
+  "stepOne.description": "'myelin.config.json' कॉन्फ़िगरेशन फ़ाइल सुनिश्चित करें जो आपके प्रोजेक्ट की जड़ में स्थित हो। नीचे एक उदाहरण है।",
+  "stepTwo.title": "AI Api कुंजी जोड़ें",
+  "stepTwo.description": "अगला, अपने '.env' फ़ाइल में `AI_API_KEY` जोड़ें। इसका उपयोग अनुवाद करने के लिए आवश्यक है।",
+  "stepThree.title": "अनुवाद करें",
+  "stepThree.description": "अगला, अपने टर्मिनल पर चलाएँ:",
+  "stepThree.explanation": "जब आप यह आदेश चलाते हैं, तो Myelin आपके स्रोत JSON फ़ाइल (जैसे, locales/en.json) को लोड करता है, किसी भी नए या अपडेट किए गए अनुवाद स्ट्रिंग्स की पहचान करता है, आपके द्वारा निर्दिष्ट लक्षित भाषाओं के लिए अनुवाद बनाता है, और संबंधित लक्षित भाषा JSON फ़ाइलों (जैसे, locales/sv.json, locales/de.json, locales/fr.json) को बनाता है या अपडेट करता है।"
+}

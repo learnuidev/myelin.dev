@@ -1,0 +1,10 @@
+{
+  "tutorial.title": "آموزش",
+  "stepOne": "ایجاد myelin.config.json",
+  "stepOne.description": "اطمینان حاصل کنید که فایل پیکربندی 'myelin.config.json' در ریشه پروژه شما قرار دارد. نمونه زیر را مشاهده کنید.",
+  "stepTwo.title": "کلیدهای API AI را اضافه کنید",
+  "stepTwo.description": "اکنون، به اضافه کردن `AI_API_KEY` در فایل `.env` خود بپردازید. این برای اجرای ترجمه‌ها ضروری است.",
+  "stepThree.title": "ترجمه",
+  "stepThree.description": "اکنون، در ترمینال خود دستور زیر را اجرا کنید:",
+  "stepThree.explanation": "زمانی که این دستور را اجرا می‌کنید، Myelin فایل JSON مبنای شما (به عنوان مثال، locales/en.json) را بارگذاری می‌کند، هر رشته ترجمه جدید یا به‌روزرسانی شده را شناسایی می‌کند، برای زبان‌های هدف تعیین شده شما ترجمه‌هایی تولید می‌کند و فایل‌های JSON زبان هدف مربوطه (به عنوان مثال، locales/sv.json، locales/de.json، locales/fr.json) را ایجاد یا به‌روزرسانی می‌کند."
+}

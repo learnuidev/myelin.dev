@@ -1,0 +1,15 @@
+{
+  "feature.multiModel": "کئی ماڈل",
+  "feature.multiModel.description": "میائلن لچکدار ہے۔ آپ چار مختلف بنیادی ڈھانچوں میں سے انتخاب کرسکتے ہیں: اوپن اے آئی، ڈیپ سیک، مون شاٹ، اور کیون۔",
+  "feature.byom": "اپنا ماڈل لائیں",
+  "feature.byom.description": "میائلن کے ساتھ، آپ اپنا ماڈل لائیں۔",
+  "feature.private": "لوکل پہلے اور نجی",
+  "feature.private.description": "ترجمہ کی کالیں آپ کے مشین پر ہوتی ہیں۔ ہم کبھی بھی آپ کا ڈیٹا تیسرے فریق کی ای پی آئیز یا کسی دوسرے خارجی ڈیٹا بیس کو نہیں بھیجتے۔",
+  "feature.openSource": "اوپن سورس",
+  "feature.openSource.description": "میائلن مکمل طور پر اوپن سورس ہے۔ آپ گٹ ہب ریپوزٹری پر ہر ایک لائن کا کوڈ پڑھ سکتے ہیں۔",
+  "feature.firstClassi18n": "پہلی کلاس i18n لائبریری کی حمایت",
+  "feature.firstClassi18n.description": "next-intl، react-intl، react-i18next وغیرہ۔ میائلن ان سب کی حمایت کرتا ہے۔",
+  "feature.title": "خصوصیات",
+  "feature.nameSpaceSupport": "نام کی جگہ کی حمایت",
+  "feature.nameSpaceSupport.description": "میائلن باکس سے باہر دونوں نامزد اور غیر نامزد کی حمایت کرتا ہے۔"
+}

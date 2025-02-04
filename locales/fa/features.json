@@ -1,0 +1,15 @@
+{
+  "feature.multiModel": "مدل چندگانه",
+  "feature.multiModel.description": "مایلین انعطاف‌پذیر است. شما می‌توانید از چهار زیرساخت مختلف: اوپن‌ای‌آی، دیپ‌سیک، مون‌شات و کوئن انتخاب کنید.",
+  "feature.byom": "مدل خود را بیاورید",
+  "feature.byom.description": "با مایلین، می‌توانید مدل خود را بیاورید.",
+  "feature.private": "محلی اول و خصوصی",
+  "feature.private.description": "تماس‌های ترجمه بر روی دستگاه شما انجام می‌شود. ما هرگز داده‌های شما را به APIهای شخص ثالث یا هر پایگاه داده خارجی دیگری ارسال نمی‌کنیم.",
+  "feature.openSource": "منبع باز",
+  "feature.openSource.description": "مایلین به‌طور کامل متن‌باز است. شما می‌توانید هر خط کد را در مخزن گیت‌هاب بخوانید.",
+  "feature.firstClassi18n": "پشتیبانی از کتابخانه i18n درجه یک",
+  "feature.firstClassi18n.description": "next-intl، react-intl، react-i18next و غیره. مایلین از تمامی آن‌ها پشتیبانی می‌کند.",
+  "feature.title": "ویژگی‌ها",
+  "feature.nameSpaceSupport": "پشتیبانی از فضای نام",
+  "feature.nameSpaceSupport.description": "مایلین به‌طور پیش‌فرض از فضای نام و غیر فضای نام پشتیبانی می‌کند."
+}

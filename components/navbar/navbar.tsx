@@ -12,7 +12,7 @@ function GithubLink({ href }: { href: string }) {
         height="16"
         viewBox="0 0 16 16"
         fill="currentColor"
-        className="hidden md:block mr-4"
+        className="hidden md:block mx-4"
       >
         <path
           fill-rule="evenodd"

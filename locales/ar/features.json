@@ -1,0 +1,15 @@
+{
+  "feature.multiModel": "نموذج متعدد",
+  "feature.multiModel.description": "الميلين مرن. يمكنك الاختيار من بين أربعة بنى تحتية مختلفة: openai و deepseek و moonshot و qwen.",
+  "feature.byom": "احضر نموذجك الخاص",
+  "feature.byom.description": "مع الميلين، يمكنك إحضار نموذجك الخاص.",
+  "feature.private": "محلي أول وخاص",
+  "feature.private.description": "تحدث مكالمات الترجمة على جهازك. نحن لا نرسل بياناتك إلى واجهات برمجة التطبيقات التابعة لجهات خارجية أو أي قواعد بيانات خارجية أخرى.",
+  "feature.openSource": "مفتوح المصدر",
+  "feature.openSource.description": "الميلين مفتوح المصدر بالكامل. يمكنك قراءة كل سطر من التعليمات البرمجية في مستودع GitHub.",
+  "feature.firstClassi18n": "دعم مكتبة i18n من الدرجة الأولى",
+  "feature.firstClassi18n.description": "next-intl و react-intl و react-i18next وغيرها. الميلين يدعمهم جميعًا.",
+  "feature.title": "الميزات",
+  "feature.nameSpaceSupport": "دعم مساحة الأسماء",
+  "feature.nameSpaceSupport.description": "الميلين يدعم كل من المساحة المسماة وغير المسماة بشكل افتراضي."
+}

@@ -1,0 +1,15 @@
+{
+  "feature.multiModel": "Model multiplă",
+  "feature.multiModel.description": "Myelin este flexibil. Puteți alege din patru infrastructuri diferite: openai, deepseek, moonshot și qwen.",
+  "feature.byom": "Adu-ți propriul model",
+  "feature.byom.description": "Cu Myelin, poți aduce propriul tău model.",
+  "feature.private": "Local întâi și privat",
+  "feature.private.description": "Apelurile de traducere au loc pe mașina ta. Nu trimitem niciodată datele tale către API-uri de terță parte sau alte baze de date externe.",
+  "feature.openSource": "Open Source",
+  "feature.openSource.description": "Myelin este complet open source. Poți citi fiecare linie de cod din depozitul GitHub.",
+  "feature.firstClassi18n": "Suport pentru biblioteci i18n de primă clasă",
+  "feature.firstClassi18n.description": "next-intl, react-intl, react-i18next etc. Myelin le suportă pe toate.",
+  "feature.title": "Funcționalități",
+  "feature.nameSpaceSupport": "Suport pentru spații de nume",
+  "feature.nameSpaceSupport.description": "Myelin suportă atât spații de nume, cât și ne-spațiate din cutie."
+}

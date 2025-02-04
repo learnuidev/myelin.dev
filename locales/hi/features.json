@@ -1,0 +1,15 @@
+{
+  "feature.multiModel": "मल्टी मॉडल",
+  "feature.multiModel.description": "मायेलिन लचीला है। आप चार अलग-अलग ढांचों में से चुन सकते हैं: ओपनएआई, डीपसीक, मूनशॉट और क्वेन।",
+  "feature.byom": "अपना मॉडल लाएं",
+  "feature.byom.description": "मायेलिन के साथ, आप अपना खुद का मॉडल ला सकते हैं।",
+  "feature.private": "स्थानीय पहले और निजी",
+  "feature.private.description": "अनुवाद कॉल आपकी मशीन पर होते हैं। हम कभी भी आपके डेटा को तीसरे पक्ष के एपीआई या किसी अन्य बाहरी डेटाबेस में नहीं भेजते।",
+  "feature.openSource": "ओपन सोर्स",
+  "feature.openSource.description": "मायेलिन पूरी तरह से ओपन सोर्स है। आप GitHub रिपॉजिटरी पर हर एक लाइन कोड पढ़ सकते हैं।",
+  "feature.firstClassi18n": "प्रथम श्रेणी का i18n पुस्तकालय समर्थन",
+  "feature.firstClassi18n.description": "next-intl, react-intl, react-i18next आदि। मायेलिन सभी का समर्थन करता है।",
+  "feature.title": "विशेषताएँ",
+  "feature.nameSpaceSupport": "नेमस्पेस समर्थन",
+  "feature.nameSpaceSupport.description": "मायेलिन बोक्स से बाहर दोनों नामित और गैर-नामित का समर्थन करता है।"
+}
