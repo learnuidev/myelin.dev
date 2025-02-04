@@ -11,7 +11,7 @@ export const NavBar = () => {
       <Link className="font-bold text-2xl lowercase" href="/">
         {t("title")}
       </Link>
-      <div className="flex space-x-8 items-center flex-row">
+      <div className="flex space-x-4 items-center flex-row">
         <ToggleTheme />
 
         <LanguageSwitcher />
