@@ -1,5 +1,5 @@
 import { useTranslation } from "@/libs/i18n-next/use-translation";
-import { CopyToClipBoardButton } from "./copy-to-clipboard-button";
+import { CopyToClipBoardButton } from "@/components/copy-to-clipboard-button/copy-to-clipboard-button";
 
 function TutorialStepTitle({ title }: { title: string }) {
   return <h4 className="font-bold uppercase font-mono">{title}</h4>;
