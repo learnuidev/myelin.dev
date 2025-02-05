@@ -3,8 +3,8 @@
   "stepOne": "Creează myelin.config.json",
   "stepOne.description": "Asigură-te că ai un fișier de configurare 'myelin.config.json' situat în rădăcina proiectului tău. Mai jos este un exemplu.",
   "stepTwo.title": "Adaugă cheile API AI",
-  "stepTwo.description": "Apoi, adaugă `AI_API_KEY` în fișierul tău `.env`. Aceasta este necesar pentru a efectua traduceri.",
+  "stepTwo.description": "Apoi, adăugați `AI_API_KEY` în fișierul dumneavoastră `.env`. Acest lucru este necesar pentru a efectua traduceri.",
   "stepThree.title": "Traducere",
   "stepThree.description": "Apoi, în terminalul tău rulează:",
-  "stepThree.explanation": "Când rulezi acest comandă, Myelin încarcă fișierul tău JSON sursă (de exemplu, locales/en.json), identifică orice șiruri de traducere noi sau actualizate, produce traduceri pentru limbile țintă specificate și creează sau actualizează fișierele JSON relevante pentru limbile țintă (de exemplu, locales/sv.json, locales/de.json, locales/fr.json)."
+  "stepThree.explanation": "Când executați acest comandament, Myelin încarcă fișierele JSON sursă (de exemplu, locales/en/common.json), identifică orice șiruri de traducere noi sau actualizate, produce traduceri pentru limbile țintă specificate și creează sau actualizează fișierele JSON namespace relevante pentru limbile țintă (de exemplu, locales/fr/common.json, locales/es/common.json, locales/zh/common.json)."
 }

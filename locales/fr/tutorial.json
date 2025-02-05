@@ -6,5 +6,5 @@
   "stepTwo.description": "Ensuite, allez-y et ajoutez `AI_API_KEY` dans votre fichier `.env`. Cela est nécessaire pour effectuer des traductions.",
   "stepThree.title": "Traduire",
   "stepThree.description": "Ensuite, dans votre terminal, exécutez :",
-  "stepThree.explanation": "Lorsque vous exécutez cette commande, Myelin charge votre fichier JSON source (par exemple, locales/en.json), identifie toute nouvelle chaîne de traduction ou les chaînes mises à jour, produit des traductions pour les langues cibles que vous avez spécifiées et crée ou met à jour les fichiers JSON de langue cible pertinents (par exemple, locales/sv.json, locales/de.json, locales/fr.json)."
+  "stepThree.explanation": "Lorsque vous exécutez cette commande, Myelin charge vos fichiers JSON source (par exemple, locales/en/common.json), identifie les chaînes de traduction nouvelles ou mises à jour, produit des traductions pour vos langues cibles spécifiées et crée ou met à jour les fichiers JSON de langue cible pertinents (par exemple, locales/fr/common.json, locales/es/common.json, locales/zh/common.json)."
 }

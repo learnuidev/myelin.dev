@@ -3,8 +3,8 @@
   "stepOne.description": "Asegúrate de tener un archivo de configuración 'myelin.config.json' en la raíz de tu proyecto. A continuación se muestra un ejemplo.",
   "tutorial.title": "Tutorial",
   "stepTwo.title": "Agregar claves de API de IA",
-  "stepTwo.description": "A continuación, procede a agregar `AI_API_KEY` en tu archivo `.env`. Esto es necesario para realizar traducciones.",
+  "stepTwo.description": "A continuación, agrega `AI_API_KEY` en tu archivo `.env`. Esto es necesario para realizar traducciones.",
   "stepThree.title": "Traducir",
   "stepThree.description": "A continuación, en tu terminal ejecuta:",
-  "stepThree.explanation": "Cuando ejecutes este comando, Myelin carga tu archivo JSON fuente (por ejemplo, locales/en.json), identifica cualquier cadena de traducción nueva o actualizada, produce traducciones para los idiomas de destino especificados y crea o actualiza los archivos JSON de idioma de destino relevantes (por ejemplo, locales/sv.json, locales/de.json, locales/fr.json)."
+  "stepThree.explanation": "Cuando ejecutas este comando, Myelin carga tus archivos JSON de origen (por ejemplo, locales/en/common.json), identifica cualquier cadena de traducción nueva o actualizada, produce traducciones para los idiomas de destino especificados y crea o actualiza los archivos JSON con nombres de espacio de idioma de destino relevantes (por ejemplo, locales/fr/common.json, locales/es/common.json, locales/zh/common.json)."
 }

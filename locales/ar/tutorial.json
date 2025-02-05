@@ -3,8 +3,8 @@
   "stepOne": "إنشاء myelin.config.json",
   "stepOne.description": "تأكد من أن لديك ملف تكوين 'myelin.config.json' موجود في جذر مشروعك. أدناه مثال لذلك.",
   "stepTwo.title": "إضافة مفاتيح واجهة برمجة التطبيقات الذكية",
-  "stepTwo.description": "بعد ذلك، انتقل وأضف `AI_API_KEY` في ملف `.env` الخاص بك. هذا ضروري لتشغيل الترجمات.",
+  "stepTwo.description": "بعد ذلك، تابع وأضف `AI_API_KEY` في ملف `.env` الخاص بك. هذا ضروري لتنفيذ الترجمات",
   "stepThree.title": "ترجمة",
   "stepThree.description": "بعد ذلك، في الطرفية الخاصة بك، قم بتشغيل:",
-  "stepThree.explanation": "عند تشغيل هذا الأمر، يقوم Myelin بتحميل ملف JSON المصدر الخاص بك (على سبيل المثال، locales/en.json)، ويحدد أي سلاسل ترجمة جديدة أو محدثة، وينتج الترجمات للغات الهدف المحددة، وينشئ أو يحدث ملفات JSON الخاصة باللغة المستهدفة ذات الصلة (على سبيل المثال، locales/sv.json، locales/de.json، locales/fr.json)."
+  "stepThree.explanation": "عندما تقوم بتشغيل هذا الأمر، يقوم Myelin بتحميل ملفات JSON المصدر الخاصة بك (مثل: locales/en/common.json)، ويتعرف على أي سلاسل ترجمة جديدة أو محدثة، وينتج ترجمات للغات الهدف المحددة لديك، ويقوم بإنشاء أو تحديث ملفات JSON ذات الأسماء المكانية للغة الهدف ذات الصلة (مثل: locales/fr/common.json، locales/es/common.json، locales/zh/common.json)."
 }

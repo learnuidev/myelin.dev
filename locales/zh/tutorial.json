@@ -3,8 +3,8 @@
   "stepOne.description": "确保您在项目根目录中有一个 'myelin.config.json' 配置文件。下面是一个示例。",
   "tutorial.title": "教程",
   "stepTwo.title": "添加 AI API 密钥",
-  "stepTwo.description": "接下来，请在您的 `.env` 文件中添加 `AI_API_KEY`。这是进行翻译所必需的",
+  "stepTwo.description": "接下来，请在您的 `.env` 文件中添加 `AI_API_KEY`。这是执行翻译所需的",
   "stepThree.title": "翻译",
   "stepThree.description": "接下来，在您的终端运行：",
-  "stepThree.explanation": "当您运行此命令时，Myelin 会加载您的源 JSON 文件（例如，locales/en.json），识别任何新的或更新的翻译字符串，为您指定的目标语言生成翻译，并创建或更新相关的目标语言 JSON 文件（例如，locales/sv.json，locales/de.json，locales/fr.json）。"
+  "stepThree.explanation": "当您运行此命令时，Myelin 会加载您的源 JSON 文件（例如，locales/en/common.json），识别任何新的或更新的翻译字符串，为您指定的目标语言生成翻译，并创建或更新相关的目标语言 JSON 命名空间文件（例如，locales/fr/common.json，locales/es/common.json，locales/zh/common.json）。"
 }

@@ -3,8 +3,8 @@
   "stepOne": "myelin.config.json 생성",
   "stepOne.description": "'myelin.config.json' 구성 파일이 프로젝트의 루트에 위치해 있는지 확인하세요. 아래는 예시입니다.",
   "stepTwo.title": "AI API 키 추가",
-  "stepTwo.description": "다음으로, `.env` 파일에 `AI_API_KEY`를 추가하세요. 이는 번역을 수행하기 위해 필요합니다.",
+  "stepTwo.description": "다음으로, `.env` 파일에 `AI_API_KEY`를 추가하세요. 이는 번역을 수행하는 데 필요합니다.",
   "stepThree.title": "번역하기",
   "stepThree.description": "다음으로, 터미널에서 다음을 실행하세요:",
-  "stepThree.explanation": "이 명령을 실행하면 Myelin이 소스 JSON 파일(예: locales/en.json)을 로드하고, 새로운 또는 업데이트된 번역 문자열을 식별하며, 지정된 대상 언어에 대한 번역을 생성하고, 관련된 대상 언어 JSON 파일(예: locales/sv.json, locales/de.json, locales/fr.json)을 생성하거나 업데이트합니다."
+  "stepThree.explanation": "이 명령을 실행하면 Myelin이 소스 JSON 파일(예: locales/en/common.json)을 로드하고, 새로운 또는 업데이트된 번역 문자열을 식별하며, 지정된 대상 언어에 대한 번역을 생성하고, 관련 대상 언어 JSON 네임스페이스 파일(예: locales/fr/common.json, locales/es/common.json, locales/zh/common.json)을 생성하거나 업데이트합니다."
 }
