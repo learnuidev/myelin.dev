@@ -29,7 +29,7 @@ export const CopyToClipBoardButton = ({
       }}
       className={cn(className)}
     >
-      <CopyIcon className="text-sm" />
+      <CopyIcon size={16} className="hover:opacity-60 transition-all" />
     </button>
   );
 };
