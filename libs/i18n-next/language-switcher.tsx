@@ -21,7 +21,7 @@ export function LanguageSwitcher() {
     locale || i18nConfig.fallbackLanguage
   );
   const router = useRouter();
-  const { i18n } = useTranslation("common");
+  const { i18n } = useTranslation();
   const handleChange = async (value: Language) => {
     const newLocale = value;
     setSelectedItem(newLocale);
