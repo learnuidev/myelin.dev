@@ -20,7 +20,7 @@ export const languagesList = {
   // Add your supported locales here
 } as const;
 
-export const displayLanguages = Object.fromEntries(
+const displayLanguages = Object.fromEntries(
   Object.entries(languagesList)?.filter((item) => {
     const langId = item[0];
     return (
