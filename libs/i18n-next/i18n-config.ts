@@ -22,7 +22,11 @@ export const languagesList = {
 
 export const displayLanguages = Object.fromEntries(
   Object.entries(languagesList)?.filter((item) => {
-    return myelinConfig.locale.targetLanguages?.includes(item?.[0]);
+    const langId = item[0];
+    return (
+      langId === myelinConfig.locale.sourceLanguage ||
+      myelinConfig.locale.targetLanguages?.includes(langId)
+    );
   })
 );
 
