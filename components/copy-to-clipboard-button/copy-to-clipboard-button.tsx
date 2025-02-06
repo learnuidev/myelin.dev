@@ -1,6 +1,6 @@
 import { useToast } from "@/hooks/use-toast";
 import { cn } from "@/lib/utils";
-import { copyTextToClipboard } from "@/libs/misc/copy-text-to-clipboard";
+import { copyToClipboard } from "@/libs/misc/copy-to-clipboard";
 import { CopyIcon } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
@@ -17,7 +17,7 @@ export const CopyToClipBoardButton = ({
   return (
     <button
       onClick={() => {
-        copyTextToClipboard(text).then(() => {
+        copyToClipboard(text).then(() => {
           toast({
             title: t("copyToClipboard.title", "Tada 🎉"),
             description: t(

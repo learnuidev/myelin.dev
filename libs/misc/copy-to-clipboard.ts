@@ -1,6 +1,6 @@
 "use client";
 
-export async function copyTextToClipboard(text: string) {
+export async function copyToClipboard(text: string) {
   if (navigator.clipboard) {
     // Use the Clipboard API for modern browsers
     return navigator.clipboard

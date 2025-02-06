@@ -2,7 +2,8 @@
 
 import { useToast } from "@/hooks/use-toast";
 import { useTranslation } from "@/libs/i18n-next/use-translation";
-import { copyTextToClipboard } from "@/libs/misc/copy-text-to-clipboard";
+import { copyToClipboard } from "@/libs/misc/copy-to-clipboard";
+
 import { motion } from "framer-motion";
 
 export function Banner() {
@@ -83,7 +84,7 @@ export function Banner() {
             onClick={(event) => {
               event.preventDefault();
 
-              copyTextToClipboard(`npx myelino --translate`).then(() => {
+              copyToClipboard(`npx myelino --translate`).then(() => {
                 toast({
                   title: t("copyToClipboard.title"),
                   description: t("copyToClipboard.description"),
