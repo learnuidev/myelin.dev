@@ -89,7 +89,7 @@ export const Tutorial = () => {
               </pre>
             </code>
 
-            <CopyToClipBoardButton text={"npx myelino --translate"} />
+            <CopyToClipBoardButton text={"npx myelino translate"} />
           </div>
 
           <p>{t("stepThree.explanation")}</p>

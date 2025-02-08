@@ -84,7 +84,7 @@ export function Banner() {
             onClick={(event) => {
               event.preventDefault();
 
-              copyToClipboard(`npx myelino --translate`).then(() => {
+              copyToClipboard(`npx myelino translate`).then(() => {
                 toast({
                   title: t("copyToClipboard.title"),
                   description: t("copyToClipboard.description"),
@@ -95,7 +95,7 @@ export function Banner() {
           >
             <span>
               {" "}
-              npx <span className="text-pink-500">myelino</span> --translate
+              npx <span className="text-pink-500">myelino</span> translate
             </span>
           </button>
         </div>
