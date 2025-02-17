@@ -1,0 +1,17 @@
+{
+  "feature.free": "無料",
+  "feature.free.description": "マイリンは無料です。今も未来も。",
+  "feature.multiModel": "マルチモデル",
+  "feature.multiModel.description": "マイリンは柔軟です。openai、deepseek、moonshot、qwenの4つの異なるインフラから選択できます。",
+  "feature.byom": "自分のモデルを持ち込む",
+  "feature.byom.description": "マイリンを使えば、自分のモデルを持ち込むことができます。",
+  "feature.private": "ローカルファーストでプライベート",
+  "feature.private.description": "翻訳の呼び出しはあなたのマシンで行われます。私たちはあなたのデータを第三者のAPIや他の外部データベースに送信することは決してありません。",
+  "feature.openSource": "オープンソース",
+  "feature.openSource.description": "マイリンは完全なオープンソースです。GitHubリポジトリでコードのすべての行を読むことができます。",
+  "feature.firstClassi18n": "ファーストクラスのi18nライブラリサポート",
+  "feature.firstClassi18n.description": "next-intl、react-intl、react-i18nextなど、マイリンはすべてをサポートしています。",
+  "feature.title": "機能",
+  "feature.nameSpaceSupport": "ネームスペースサポート",
+  "feature.nameSpaceSupport.description": "マイリンはネームスペース付きおよびネームスペースなしの翻訳ファイルをそのままサポートしています。"
+}

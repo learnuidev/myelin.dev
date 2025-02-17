@@ -1,0 +1,10 @@
+{
+  "tutorial.title": "チュートリアル",
+  "stepOne": "myelin.config.jsonを作成する",
+  "stepOne.description": "'myelin.config.json'設定ファイルがプロジェクトのルートにあることを確認してください。以下に例を示します。",
+  "stepTwo.title": "AI APIキーを追加する",
+  "stepTwo.description": "次に、`.env`ファイルに`AI_API_KEY`を追加してください。これにより、翻訳を実行することができます。",
+  "stepThree.title": "翻訳する",
+  "stepThree.description": "次に、ターミナルで次のコマンドを実行します：",
+  "stepThree.explanation": "このコマンドを実行すると、MyelinはソースJSONファイル（例：locales/en/common.json）を読み込み、新しいまたは更新された翻訳文字列を特定し、指定されたターゲット言語の翻訳を生成し、関連するターゲット言語のJSON名前空間ファイル（例：locales/fr/common.json、locales/es/common.json、locales/zh/common.json）を作成または更新します。"
+}
