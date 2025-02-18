@@ -3,5 +3,6 @@
   "banner": "Myelin intègre parfaitement la localisation dans votre processus de développement, vous permettant de donner la priorité à la création d'expériences utilisateur exceptionnelles tout en minimisant le temps consacré aux tâches de traduction.",
   "description": "infrastructure de traduction qui suscite de la joie",
   "copyToClipboard.title": "Tada 🎉",
-  "copyToClipboard.description": "Copié dans le presse-papiers."
+  "copyToClipboard.description": "Copié dans le presse-papiers.",
+  "cta": "Ceci n'est pas utilisé."
 }

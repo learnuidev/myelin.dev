@@ -3,5 +3,6 @@
   "banner": "Myelin seamlessly integrates localization into your development process, freeing you to prioritize building exceptional user experiences while minimizing time spent on translation tasks.",
   "description": "a translation infra that sparks joy",
   "copyToClipboard.title": "Tada 🎉",
-  "copyToClipboard.description": "Copied to clipboard."
+  "copyToClipboard.description": "Copied to clipboard.",
+  "cta": "This is not used."
 }
