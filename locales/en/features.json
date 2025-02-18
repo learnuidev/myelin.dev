@@ -12,7 +12,6 @@
   "feature.firstClassi18n": "First Class i18n Library Support",
   "feature.firstClassi18n.description": "next-intl, react-intl, react-i18next, etc. Myelin supports them all.",
   "feature.title": "Features",
-
   "feature.nameSpaceSupport": "Namespace Support",
   "feature.nameSpaceSupport.description": "Myelin supports both namespaced and non namespaced translation files out of the box"
 }
