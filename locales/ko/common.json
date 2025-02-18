@@ -3,5 +3,6 @@
   "description": "기쁨을 주는 번역 인프라",
   "banner": "미엘린은 로컬라이제이션을 개발 프로세스에 원활하게 통합하여, 번역 작업에 소요되는 시간을 최소화하면서 뛰어난 사용자 경험 구축에 집중할 수 있도록 도와줍니다.",
   "copyToClipboard.title": "짜잔 🎉",
-  "copyToClipboard.description": "클립보드에 복사됨"
+  "copyToClipboard.description": "클립보드에 복사됨",
+  "thisKeyIsNotUsed": "이것을 제거하세요"
 }

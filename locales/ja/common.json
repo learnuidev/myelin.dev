@@ -3,5 +3,6 @@
   "description": "喜びを引き起こす翻訳インフラ",
   "banner": "マイelinは、ローカリゼーションを開発プロセスにシームレスに統合し、翻訳作業に使う時間を最小限に抑えつつ、優れたユーザー体験の構築に集中できるようにします。",
   "copyToClipboard.title": "タダ 🎉",
-  "copyToClipboard.description": "クリップボードにコピーされました。"
+  "copyToClipboard.description": "クリップボードにコピーされました。",
+  "thisKeyIsNotUsed": "これを削除"
 }
