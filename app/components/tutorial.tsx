@@ -85,11 +85,11 @@ export const Tutorial = () => {
           >
             <code>
               <pre>
-                <span className="text-gray-800 dark:text-gray-300">{`> npx myelino --translate`}</span>
+                <span className="text-gray-800 dark:text-gray-300">{`> npx myelin.dev@latest translate`}</span>
               </pre>
             </code>
 
-            <CopyToClipBoardButton text={"npx myelino translate"} />
+            <CopyToClipBoardButton text={"npx myelin.dev@latest translate"} />
           </div>
 
           <p>{t("stepThree.explanation")}</p>
